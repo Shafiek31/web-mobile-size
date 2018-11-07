@@ -1,0 +1,825 @@
+* {
+    font-family: helvetica;
+}
+
+#inlogpagina {
+    background-color: #fec81b;
+}
+
+#inlogpagina form {
+    padding-top: 2em;
+}
+
+#inlogpagina p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: auto;
+    color: #213973;
+    margin-top: 0;
+}
+
+#inlogpagina h1 {
+    text-align: center;
+    color: #213973;
+    margin-bottom: 0;
+    background-color: #fec81b;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+}
+
+#inlogpagina nav ul {
+    display: grid;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    padding-top: 1em;
+}
+
+#inlogpagina nav li {
+    color: black;
+    display: grid;
+    text-align: center;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inlogpagina img,
+#accountpagina img {
+    display: flex;
+    max-width: 3em;
+    text-align: center;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#accountpagina form {
+    padding-top: 2em;
+}
+
+#accountpagina input[type="submit"]{
+    margin-top: 1em;
+}
+
+#accountpagina label:nth-of-type(6){
+    display: flex;
+    padding: 0.5em;
+}
+
+#accountpagina h1 {
+    padding-top: 3em;
+    margin-bottom: 0;
+    color: #213973;
+    text-align: center;
+    background-color: white;
+}
+
+#accountpagina {
+    background-color: white;
+}
+
+#accountpagina p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 0 2em;
+    color: #213973;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#detailpagina ul:last-child img {
+    left: 1em;
+    width: 3em;
+    height: 3em;
+}
+
+#detailpagina h2 {
+    margin: 0;
+}
+
+#detailpagina .poep-verhaal {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 80%;
+}
+
+#detailpagina .poep-verhaal-50em {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 80%;
+}
+
+#detailpagina .poep-verhaal-20em {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 80%;
+}
+
+#detailpagina .poep-verhaal-100em {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 80%;
+}
+
+/*Filter micro interactie*/
+#detailpagina aside > form {
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #fec81b;
+    width: 0px;
+    overflow: hidden;
+}
+
+#detailpagina fieldset label {
+    display: flex;
+    padding: 0.5em;
+}
+
+#overzichtspagina ul:last-child img {
+    left: 1em;
+    width: 3em;
+    height: 43m;
+}
+
+#overzichtspagina form {
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #fec81b;
+    width: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*Filter openklappen*/
+aside.open {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .2);
+    transition: 0.5s;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overzichtspagina .open form {
+    opacity: 1;
+    background-color: #fec81b;
+    width: 50%;
+}
+
+
+header > nav {
+    font-size: 1em;
+    background-color: #fec81b;
+    margin-right: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
+
+header > nav > lu > li {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    text-decoration: none;
+    max-width: 40%;
+    padding-left: auto;
+}
+
+img.ster-iconen {
+    padding: 0em 1.7em;
+    width: 40%;
+    padding-bottom: 1em;
+}
+
+#overzichtspagina article img {
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#overzichtspagina main h2:nth-of-type(1), .section-top-3 {
+    background-color: #2B7BCC;
+
+}
+
+#overzichtspagina .section-top-3 {
+        padding-bottom: 2em;
+}
+
+#overzichtspagina main h2:nth-of-type(1) {
+    color: white;
+margin-top: 0.7em;
+margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+
+/*Voor de navigatie*/
+
+nav li {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    text-decoration: none;
+    max-width: 8em;
+    padding-left: auto;
+}
+
+nav li:first-child {
+    text-align: left;
+    flex-grow: 1;
+    margin-right: auto;
+    max-width: 40%;
+}
+
+nav li:nth-of-type(2) {
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.button-balk > li {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #213973;
+    padding: 1em;
+    width: 100%;
+}
+
+.button-balk > li > a {
+    color: white;
+}
+
+.header {
+    display: flex;
+    background-color: lightgrey;
+}
+
+.header-iconen {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.button-balk > li {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #213973;
+    padding: 1em;
+    width: 100%;
+}
+
+.button-balk > li > a {
+    color: white;
+}
+
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    color: #213973;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding: 0.6em;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #213973;
+    margin-top: 0em;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+h3 {
+    margin-bottom: 0em;
+    font-size: 1em;
+    text-align: left;
+    padding: 0em 2em;
+    color: #213973;
+    padding-left: 2em
+}
+
+body {
+    background-color: blue;
+    font-weight: 150;
+    margin: 0;
+}
+
+main p:first-child {
+    color: #213973;
+    margin-top: 0em;
+}
+
+p {
+    color: #2375ba;
+    font-size: 1em;
+    margin: 1em 2em;
+    margin-top: 0.5em;
+    margin-right: 6em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em;
+    padding-top: 4em;
+    font-size: 1em;
+    color: #213973;
+    transition: 0.7s;
+}
+
+fieldset {
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+
+fieldset label {
+    display: flex;
+    padding: 0.5em;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 2em;
+    width: 20em;
+    font-size: 0.8em;
+    padding-left: 0.6em;
+    margin-bottom: 0.6em;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+
+section ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    background-color: white;
+}
+
+.vergeten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-right: 11em;
+}
+
+button {
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+    margin: 0;
+    width: 18%;
+}
+
+[type="checkbox"] {
+    padding: 0em;
+    margin: 0em;
+    font-size: 0.1em;
+    width: 2em;
+}
+
+strong {
+    color: #2375ba;
+    padding-left: 0.4em;
+    font-weight: 6.3em;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 1em;
+
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 1em;
+}
+
+input[type="submit"] {
+    background-color: #2375ba;
+    color: white;
+}
+
+#overzichtspagina input[type="submit"] {
+    background-color: #2375ba;
+    color: white;
+    margin-top: -1em;
+}
+
+input[type="range"] {
+    width: 10em;
+}
+
+.auteur {
+    color: lightgray;
+}
+
+article {
+    border-bottom: solid 2px;
+    border-bottom-color: #6a6a7a;
+    background-color: #e7e6e9;
+    padding: 0em;
+    box-sizing: border-box;
+    margin-bottom: 0em;
+    max-width: 20em;
+    max-height: 40em;
+}
+
+@media(min-width: 10em) {
+    body {
+        background-color: #e6e7e9;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1em;
+        margin: 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    article {
+        margin-bottom: 1em;
+        background-color: white;
+    }
+
+    #detailpagina .poep-verhaal-20em {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 95%;
+}
+}
+
+
+@media(min-width: 30em) {
+
+    section:last-child {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1em;
+        margin: 0;
+    }
+
+    article {
+        margin-bottom: 1em;
+        background-color: white;
+    }
+
+    #detailpagina .poep-verhaal-20em {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 90%;
+}
+
+#detailpagina .poep-verhaal-50em {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 70%;
+}
+
+}
+
+@media(min-width: 40em) {
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 8em;
+        margin: 0;
+    }
+
+    article {
+        margin: 0.5em;
+        margin-bottom: 1em;
+        background-color: white;
+    }
+
+}
+
+@media(min-width: 50em) {
+    section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 1em;
+    margin: ;
+}
+
+article {
+    margin: 0.5em;
+    margin-bottom: 1em;
+    background-color: white;
+}
+}
+
+@media(min-width: 70em) {
+    #overzichtspagina main h2:nth-of-type(1), .section-top-3 {
+    background-color: #2B7BCC;
+        margin-top: 0em;
+
+}
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 1em;
+        margin: ;
+    }
+
+    article {
+        margin: 1em;
+        margin-bottom: 1em;
+        background-color: white;
+    }
+
+}
+
+@media(min-width: 80em) {
+    #overzichtspagina main h2:nth-of-type(1), .section-top-3 {
+    background-color: #2B7BCC;
+        margin-top: 0em;
+
+}
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 7em;
+        margin: 0;
+    }
+
+    article {
+        margin: 1em;
+        margin-bottom: 1em;
+        background-color: white;
+    }
+
+    #detailpagina .poep-verhaal-50em {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 80%;
+    }
+
+    #detailpagina .poep-verhaal-100em {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2em;
+    width: 70%;
+}
+}
+
+@media(min-width: 100em) {
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 10em;
+        margin: 0;
+    }
+
+
+
+    article {
+        margin: 1em;
+        margin-bottom: 1em;
+        background-color: white;
+    }
+
+}
+
+/*download micro interactie*/
+#download-toggle {
+    margin-left: 2em;
+    width: 60px;
+    height: 60px;
+}
+
+.balk {
+    width: 100%;
+    height: 1em;
+    background-color: grey;
+    margin-right: 6em;
+    margin-top: 1.5em;
+}
+
+.rood {
+    background-color: red;
+    width: 0;
+    margin-top: 0em;
+}
+
+/*animated is een interactie */
+.balk.animated {
+    animation: progress 1s ease-in;
+    width: 100%;
+}
+
+.melding {
+    position: absolute;
+    left: 1.5em;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.invisible {
+    display: none;
+}
+
+.bounce {
+    animation: bounce 0.4s 4 ease;
+}
+
+
+
+@keyframes progress {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(0.5em);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*reactie micro interactie*/
+#detailpagina article img {
+    position: absolute;
+    width: 75px;
+    padding-left: 0;
+    padding-right: 1em
+}
+
+#detailpagina article h3 {
+    display: flex;
+    text-align: left;
+    padding-left: 5em;
+    margin-bottom: 0em;
+    position: relative
+}
+
+#detailpagina article p {
+    width: 150%;
+    display: flex;
+    text-align: left;
+    padding-left: 3em;
+    padding-bottom: 0;
+    position: relative
+}
+
+#detailpagina .bericht {
+    display: flex;
+    flex-direction: column;
+}
+
+#detailpagina .verzonden {
+    background-color: lightgreen;
+}
+
+#detailpagina article {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 20em;
+    background-size: cover;
+    margin-bottom: 0em;
+}
+
+#detailpagina article:last-child {
+    margin-bottom: 4em
+}
+
+#detailpagina input {
+    display: flex;
+    width: 150px;
+    margin-left: 2em;
+}
+
+#detailpagina form {
+    padding-top: 2.2em;
+
+}
+
+#detailpagina form img {
+    width: 40px;
+    margin-left: 8em;
+
+}
+
+#detailpagina .open form {
+    opacity: 1;
+    background-color: #fec81b;
+    width: 50%;
+    height: 100vh;
+}
+
+.bericht {
+    padding-top: 10em;
+}
+
+/* pas als je klikt gaat de eerste article weg*/
+.bericht.active article:first-of-type {
+    transition: ease 1s;
+    opacity: 0;
+}
+
+/*De reactie die erbij komt, vanwege absolute gaat er overheen, de article gaat naar boven vanwege de min*/
+article:nth-of-type(2) {
+    opacity: 0;
+    position: absolute;
+    margin-top: -10em;
+}
+
+/*Hier schuift de article erin, relative: komt het er tussen*/
+.bericht.active article:nth-of-type(2) {
+    opacity: 1;
+    position: relative;
+    transition: ease 2s 1s;
+    margin-top: -4em;
+}
+
+/*Voor de juiste plek*/
+.bericht.active article:nth-of-type(3) {
+    position: relative;
+    margin-bottom: -10em;
+}
